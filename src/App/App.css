@@ -1,0 +1,14 @@
+.app {
+  padding: 15px 0 100px 0;
+  border: 1px solid #bdbdbd;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 200px auto 0px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  max-width: 550px;
+  margin: 0 auto;
+}

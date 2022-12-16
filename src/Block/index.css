@@ -1,0 +1,7 @@
+.block {
+  position: relative;
+}
+
+.block__select {
+  cursor: pointer;
+}
