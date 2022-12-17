@@ -4,6 +4,8 @@
   position: absolute;
   top: 24px;
   left: 0;
+  z-index: 10;
+  background-color: #fff;
 }
 
 .menu__item {
