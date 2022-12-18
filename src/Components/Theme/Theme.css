@@ -1,0 +1,13 @@
+.theme {
+  background-color: #b2ecf8;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+
+.theme:active {
+  box-shadow: 1px 1px 5px 0px rgba(34, 60, 80, 0.2);
+}

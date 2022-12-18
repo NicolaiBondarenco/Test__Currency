@@ -1,0 +1,40 @@
+.block {
+  position: relative;
+  width: 260px;
+}
+
+.block__inner {
+  height: 60px;
+  border: 2px solid rgba(7, 28, 71, 0.12);
+  border-radius: 10px;
+  padding-left: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.block__value {
+  text-align: right;
+  max-width: 75%;
+  border: none;
+  height: 100%;
+  font-weight: 600;
+  font-size: 24px;
+  border-right: 2px solid rgba(7, 28, 71, 0.12);
+  outline: none;
+}
+
+.block__select {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  height: 100%;
+  font-weight: 600;
+  width: 62px;
+  padding: 0;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.block__select-flag {
+  margin-left: 20px;
+}

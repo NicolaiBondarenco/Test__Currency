@@ -11,6 +11,8 @@ const Block = (props) => {
     currency,
     changeCurrency,
     error,
+    changeFlag,
+    flag,
   } = props
 
   return (
@@ -24,15 +26,22 @@ const Block = (props) => {
           placeholder="0"
         />
         <button className="block__select" onClick={setMenu}>
+          <img className="block__select-flag" src={flag} alt="Flag" />
           {value}
         </button>
       </div>
       {error && (
-        <span style={{ color: 'red' }}>
+        <span style={{ color: 'red', fontSize: '11px' }}>
           Значение не может быть меньше нуля!
         </span>
       )}
-      {menu && <Menu setMenu={setMenu} changeValue={changeValue} />}
+      {menu && (
+        <Menu
+          setMenu={setMenu}
+          changeFlag={changeFlag}
+          changeValue={changeValue}
+        />
+      )}
     </div>
   )
 }
