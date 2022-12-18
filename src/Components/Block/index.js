@@ -32,7 +32,7 @@ const Block = (props) => {
       </div>
       {error && (
         <span style={{ color: 'red', fontSize: '11px' }}>
-          Значение не может быть меньше нуля!
+          The value cannot be less than zero!
         </span>
       )}
       {menu && (
